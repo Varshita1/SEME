@@ -22,7 +22,7 @@ Designing a smart **SEME system** for the campus of **IIT(ISM) Dhanbad**, ensuri
 
 ```bash
 # Clone the repo
-git clone <repo-url>
+git clone 'https://github.com/Varshita1/SEME.git'
 
 # Change directory
 cd SEME-System
