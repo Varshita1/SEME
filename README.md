@@ -1,31 +1,64 @@
-# Single Entry Multiple Exit(SEME)  System
-## Guide
-- Clone in your computer 'git clone https://github.com/Sri8397/SEME-System.git'
-- Change directory 'cd SEME-System'
-- Install all dependencies 'npm install'
-## Required Dependencies
-- "bcryptjs": "^2.4.3",
-- "cors": "^2.8.5",
-- "dotenv": "^16.3.1",
-- "express": "^4.18.2",
-- "express-validator": "^7.0.1",
-- "jsonwebtoken": "^9.0.1",
-- "mongoose": "^7.3.1"
 
 
+# 🚧 Single Entry Multiple Exit (SEME) System
 
-## PROJECT IDEA
-Designing a `SEME` for the campus of `IIT(ISM) Dhanbad`
+## 👩‍💻 Developed by: **Varshita**
 
-## PROJECT BRIEFINGS
-1. The project devises a way to allow people to conveniently move in and out of campus using the best possible security forces and systems.
-2. In this system, the entire inflow of traffic can only be from the main gate. However, people may exit from multiple exit points allowing the conservation of fuel and energy. 
-3. Various concepts pertaining to `Operating Systems` will be used including process scheduling for sending warning messages and channelising influx
-4. The project also uses the `memory mapping` for efficient space usage.
+## 📌 Project Idea
 
-## PROJECT PROCEEDING
+Designing a smart **SEME system** for the campus of **IIT(ISM) Dhanbad**, ensuring secure and efficient entry from a single main gate and exits through multiple points.
 
-### WEEK 01
-- DISCUSSIONS AND PROJECT PRODCEEDINGS. 
-- Construction of the feeder system
-- Sorting of data based on time.
+## 🛠 Required Dependencies
+
+* `bcryptjs`: ^2.4.3
+* `cors`: ^2.8.5
+* `dotenv`: ^16.3.1
+* `express`: ^4.18.2
+* `express-validator`: ^7.0.1
+* `jsonwebtoken`: ^9.0.1
+* `mongoose`: ^7.3.1
+
+## 🚀 Setup Guide
+
+```bash
+# Clone the repo
+git clone <repo-url>
+
+# Change directory
+cd SEME-System
+
+# Install dependencies
+npm install
+```
+
+---
+
+## 📅 Project Timeline
+
+### Week 1
+
+* Team discussion and feature planning.
+* Initial project setup using Node.js, Express, MongoDB.
+* Created basic APIs and feeder system for entry logs.
+* Sorted data based on timestamp.
+
+### Week 2
+
+* Added JWT-based authentication.
+* Implemented APIs for Main Entry and multiple Exit points.
+* Logged location and time for each entry/exit.
+
+### Week 3
+
+* Added alert logic for missing exit logs.
+* Simulated basic checks for unusual entry/exit patterns.
+* Improved database structure and code modularity.
+
+### Week 4
+
+* Final testing and bug fixing.
+* Implemented analytics (e.g., most used exit).
+* Prepared for deployment and created complete documentation.
+
+---
+
